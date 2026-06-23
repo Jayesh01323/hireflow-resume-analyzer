@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# vscode
+.vscode/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# test files & artifacts
+create_test_pdf.js
+test_*.js
+test_resume.*
+
+# project reports (not for production)
+APP_STATUS_REPORT.md
+AUDIT_VALIDATION_REPORT.md
+FINAL_SUBMISSION_AUDIT.md
+LIVE_PREVIEW_TEST_REPORT.md
+PORTFOLIO.md
+REAL_OUTPUT_VALIDATION.md
+SUBMISSION.md
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
